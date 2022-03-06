@@ -1,0 +1,62 @@
+#full_stack {
+    border-left: 7px solid ;
+    border-image: linear-gradient( 180deg, lightSalmon, rgb(160, 43, 22) ) ;
+    border-image-slice: 1 ;
+}
+.mt-dev-5{
+    margin-top: 8rem;
+}
+
+
+
+
+
+
+/* Media Query */
+
+
+
+@media screen and (min-width: 280px) and (max-width: 540px){
+    /* styles */
+
+
+    .profile-des h4,h2 {
+
+        text-align: center;
+    }
+    .profile-des p{
+        text-align: justify;
+    }
+
+    .profile-des button{
+        width: 100%;
+        margin: 4rem 0rem;
+    }
+
+    .img-dev{
+        height: 80%;
+        float: right;
+        width: 100%;
+    }
+    .no-margin{
+        margin: 0 !important;
+    }
+    .card{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /* styles */
+    .mt-mq768-5{
+        margin-top: 5rem;
+    }
+    .profile-des button{
+        width: 80%;
+    }
+    .container{
+        margin-bottom: 5rem;
+    }
+    
+}
